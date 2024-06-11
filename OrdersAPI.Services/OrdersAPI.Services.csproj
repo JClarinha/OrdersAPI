@@ -3,14 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\OrdersAPI.Data\OrdersAPI.Data.csproj" />
+    <ProjectReference Include="..\OrdersAPI.Repositories\OrdersAPI.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

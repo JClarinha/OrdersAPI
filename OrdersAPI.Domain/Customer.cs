@@ -9,6 +9,7 @@
         public string Phone { get; set; }
 
 
+
         public override string ToString()
         {
             return $"Id: {Id}, Nome: {Name}, Nif: {Nif}, Email: {Email}, Phone: {Phone}";
